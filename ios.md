@@ -99,6 +99,7 @@ Setting up a Deep Link return, so that PayPal can let your app know, that paymen
 You can modify and paste the `XML` structure below into your `Info.plist`
 
 ```xml
+ <key>CFBundleURLTypes</key>
  <array>
 	<dict>
 		<key>CFBundleURLName</key>
